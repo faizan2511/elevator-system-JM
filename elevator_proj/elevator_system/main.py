@@ -15,3 +15,6 @@ class ElevatorSystem :
         for lift_num in range(0, num_of_lifts) :
             new_elevator = Elevator(lift_num, min_floor, max_floor)
             self.elevators.append(new_elevator)
+
+    def process_request(self, request_list) :
+        pass
